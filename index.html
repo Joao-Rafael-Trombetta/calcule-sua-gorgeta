@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculadora de gorgeta</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="valor">
+        <p>valor da compra</p>
+        <input type="number" inputmode="numeric" id="valor" class="entradas" />
+      </div>
+      <div class="porcentagem">
+        <p>porcentagem da gorgeta</p>
+        <input
+          type="number"
+          inputmode="numeric"
+          id="porcentagem-gorgeta"
+          class="entradas"
+        />
+      </div>
+      <button onclick="calcular()" id="calc" class="botao">calcular</button>
+      <p id="resultado" class="resultado"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
